@@ -21,9 +21,24 @@
 
 .left-side{
   width: 35%;
-  background-color: green;
+  position: relative;
+ 
+}
+.left-side .backgroundimg {
+  height: 100%;
+  width: 100%;
+
+}
+.left-side .headerText {
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  padding: 40px ;
+
 }
 .main-content {
   flex-grow: 1;
-  background-color: purple;
+  
 }
