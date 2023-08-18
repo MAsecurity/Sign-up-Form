@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 *,*::before, *::after{
   margin: 0;
   padding: 0;
@@ -20,10 +20,12 @@
 }
 
 .left-side{
-  width: 35%;
+  width: 30%;
   position: relative;
   background: url(./images/backgroundimg.png) no-repeat;
   background-size: cover;
+  flex-shrink: 0;
+  
   
  
 }
@@ -74,17 +76,29 @@
 
 .header {
   background-color:rgb(238, 238, 238);
-  height: 33%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  gap: 5px;
+
+}
+.header p {
+  font-style: italic;
 
 }
 
 .middle{
-  flex-grow: 1;
+  height: 30%;
   background-color:rgb(253,253,252);
-
+  position: relative;
+  z-index: 10;
+  box-shadow: 0px 5px 5px gray;
 }
 .footer {
-  height: 33%;
+  flex-grow: 2;
   background-color:rgb(238, 238, 238);
 
 }
