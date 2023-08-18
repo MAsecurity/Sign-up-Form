@@ -112,7 +112,9 @@ input {
 }
 
 input:focus{
-  border: blue;
+  outline: none;
+  border: rgb(46, 120, 204) solid 2px;
+  box-shadow: 0px 2px 5px gray;
 }
 
 .form-class-table {
