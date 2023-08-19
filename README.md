@@ -9,4 +9,4 @@ and CSS and a bit of Javascript for password validation.
 - The basics of how Forms work.
 - Utilizing of HTML inbuilt validation's.
 - Utilizing of CSS psuedo classes such as focus, valid and invalid.
-- Utilizing of JavaScript to check if password entered were the same.
+- Utilizing of JavaScript to check if password's entered were the same.
