@@ -1,7 +1,7 @@
 # Sign-up-Form
 Live demo &#128073; https://masecurity.github.io/Sign-up-Form/
 ## What is this project about ?
-<img src="./images/webimage.png" width="400px" height="auto"/>
+<img src="./images/webimage.png" width="700px" height="auto"/>
 This project is primarily about creating a sign-up form website, for a fictional wildlife tracking organization, using mainly HTML
 and CSS and a bit of Javascript for password validation.
 
